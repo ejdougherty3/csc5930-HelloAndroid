@@ -14,6 +14,8 @@ gen/
 
 # Gradle files
 .gradle/
+gradle/
+gradlew*
 
 # Built application files
 build/
@@ -42,7 +44,6 @@ captures/
 
 # Android Sudio files
 .idea/
-.gradle
 /*/local.properties
 /*/out
 /*/*/build
