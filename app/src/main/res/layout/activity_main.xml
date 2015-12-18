@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+       
+    <EditText android:id="@+id/firstNameTxt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:hint="@string/first_name_label"
+        android:inputType="textCapWords"
+        android:imeOptions="actionNext" />
+    
+    <EditText android:id="@+id/lastNameTxt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/firstNameTxt"
+        android:hint="@string/last_name_label"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSend" />
+    
+    <Button
+        android:id="@+id/shoutOutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastNameTxt"
+        android:text="@string/shout_out_label" />
+
+</RelativeLayout>

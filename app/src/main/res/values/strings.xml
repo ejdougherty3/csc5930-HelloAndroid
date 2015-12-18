@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello Android</string>
+    
+    <string name="first_name_label">First Name</string>
+    <string name="last_name_label">Last Name</string>
+    
+    <string name="shout_out_label">Shout Out!</string>
+
+</resources>
